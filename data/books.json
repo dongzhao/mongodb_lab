@@ -1,0 +1,7 @@
+[
+    { "_id" : 1, "title" : "Divine Comedy", "author" : "Dante", "copies" : 1, "contents": "Hello, world" },
+    { "_id" : 2, "title" : "The Odyssey", "author" : "Homer", "copies" : 10 , "contents": "Hello, world"},
+    { "_id" : 3, "title" : "Iliad", "author" : "Homer", "copies" : 10, "contents": "Hello, world" },
+    { "_id" : 4, "title" : "Eclogues", "author" : "Dante", "copies" : 2, "contents": "Hello, world" },
+    { "_id" : 5, "title" : "The Banquet", "author" : "Dante", "copies" : 2, "contents": "Hello, world" }
+]

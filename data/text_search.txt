@@ -1,0 +1,10 @@
+db.Books.find( { $text: { $search: "\"The\"" } } )
+
+db.stores.find( { $text: { $search: "\"coffee shop\"" } } )
+
+db.stores.find( { $text: { $search: "\"coffee\"" } } )
+
+db.stores.find(
+   { $text: { $search: "java coffee shop" } },
+   { score: { $meta: "textScore" } }
+).sort( { score: { $meta: "textScore" } } )

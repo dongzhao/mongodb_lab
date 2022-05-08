@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/MyMongoApp/.vs/MyMongoApp
+/MyMongoApp/MyMongoApp/obj
+/MyMongoApp/MyMongoApp.Model/obj
+/MyMongoApp/MyMongoApp.Repository/obj
+/MyMongoApp/MyMongoApp.Model.UnitTest/bin/Debug/net6.0
+/MyMongoApp/MyMongoApp.Model.UnitTest/obj
+/MyMongoApp/MyMongoApp.Repository.UnitTest/bin/Debug/net6.0
+/MyMongoApp/MyMongoApp.Repository.UnitTest/obj
